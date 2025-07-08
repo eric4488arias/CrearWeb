@@ -1,0 +1,754 @@
+/* @media responsive para escritorio. */
+@media (min-width: 1024px){
+
+    /* enlaces */
+    nav {
+        /* Enlaces (nav) - esta dentro del contenedor 2 */
+        width: auto;
+        height: auto;
+        flex-direction: row; /* apila los enlaces */
+        gap: 40px;
+        justify-content: center;
+        display: flex; /* alinear letras */
+        font-family: 'Times New Roman', Times, serif;
+        flex-wrap: wrap; /* Permite que los enlaces bajen si no caben */
+        justify-content: center; /* Centra los elementos */
+        gap: 13rem; /* espacio entre enlaces */ 
+    }
+    nav a {
+        text-decoration: none; /* Quita el subrayado */
+        font-size: 20px;
+        color: black;
+    }
+    nav a:hover {
+        color: rgb(139, 5, 0);
+    }
+
+    /* Contenedores (div) */
+    .contenedor1{
+        /* posicion del contenedor - titulo */
+        position: absolute;
+        top: 20%;
+        left: 40%;
+        background: #aaa;
+        /* diemension del contenedor */
+        width: auto;
+        height: auto;
+        /* Tipo de letra */
+        font-size: 38px;
+        /*animacion*/
+        opacity: 0;
+        animation: fadeIn 2s forwards;
+    }
+    .contenedor2{
+        /* contenedor para los enlaces */
+        position: absolute;
+        top: 40%;
+        left: 30%; 
+        flex-direction: row; /* apila los enlaces */
+
+        width: auto; 
+        height: auto;
+        background: #d943f4ae;
+        
+        font-size: 25px;
+        justify-content: center;
+    }
+    .contenedor3{
+        position: absolute;
+        top: 300%;
+        left: 40%;
+    
+        width: auto; /*ANCHO - CONTENEDOR*/
+        height: auto; /*ALTURA - CONTENEDOR*/
+        background: #aaa; /*FONDO*/
+    
+        /* alinear letras */
+        display: flex; 
+        justify-content: center;
+    
+        /* Tipo de letra */
+        font-family: 'Times New Roman', Times, serif;
+        color: black;
+        font-size: 20px; /* Tamaño de las letras */
+    }
+    .contenedor4{
+        position: absolute;
+        top: 60%;
+        left: 40%;
+    
+        width: auto;
+        height: auto;
+        background: #aaa;
+    
+        /* alinear letras */
+        display: flex; 
+        justify-content: center;
+    
+        /* Tipo de letra */
+        font-family: 'Times New Roman', Times, serif;
+        color: black;
+        font-size: 25px; /* Tamaño de las letras */
+    }
+    .contenedor5{
+        position: absolute;
+        top: 90%;
+        left: 40%;
+    
+        width: auto;
+        height: auto; 
+        background: #aaa;
+    
+        /* alinear letras */
+        display: flex; 
+        justify-content: center;
+    
+        /* Tipo de letra */
+        font-family: 'Times New Roman', Times, serif;
+        color: black;
+        font-size: 30px; /* Tamaño de las letras */
+    }
+    .contenedor6 {
+        /* posicion del contenedor - titulo */
+        position: absolute;
+        top: 210%;
+        left: 40%;
+        background: #aaa;
+        /* diemension del contenedor */
+        width: auto;
+        height: auto;
+        /* Tipo de letra */
+        font-size: 20px;
+    }
+    .contenedor7 {
+        position: absolute;
+        top: 100%;
+        left: 35%;
+        
+        width: 430px;
+        height: 400px;
+        border: 5px outset #d92121;
+        
+        /* centrar texto en el contenedor */
+        display: flex;
+        text-align: center;
+        justify-content: center; /* centra horizontalmente */
+        align-items: center;     /* centra verticalmente */
+    }
+    .contenedor8 {
+        position: absolute;
+        top: 90%;
+        left: 35%;
+    
+        width: auto;
+        height: auto;
+        background: #aaa;
+    
+        /* alinear letras */
+        display: flex; 
+        justify-content: center;
+    
+        /* Tipo de letra */
+        font-family: 'Times New Roman', Times, serif;
+        color: black;
+        font-size: 20px; /* Tamaño de las letras */
+    }
+    .contenedor9 { 
+        /* boton (mostrar - oculatar contenedor)*/
+        position: absolute;
+        top: 80%;
+        left: 10%;
+        width: 300px;
+        height: auto;
+    } 
+    .contenedor10 { 
+        position: absolute;
+        top: 90%;
+        left: 10%;
+
+        visibility: hidden; /* lo oculta, pero mantiene el espacio */
+
+        background: #aaaaaa5d;
+        
+        width: 900px; 
+        height: 200px;
+
+        overflow: scroll;
+        border: 5px solid black;
+        box-sizing: border-box; 
+
+        /* alinear letras */
+        display: flex; 
+        justify-content: center;
+        text-align: center;
+
+        /* Tipo de letra */
+        font-family: 'Times New Roman', Times, serif;
+        color: black;
+        font-size: 20px; /* Tamaño de las letras */
+    }
+    .contenedor11{
+        /* posicion del contenedor */
+        position: absolute;
+        top: 80%;
+        left: 75%;
+        background: #aaa;
+        /* diemension del contenedor */
+        width: auto;
+        height: auto;
+        /* Tipo de letra */
+        font-size: 20px;
+    }
+    .contenedor12 { 
+        position: absolute;
+        width: 90%; 
+        left: 5%; 
+        font-size: 20px; 
+        text-align: center;
+        top: 150%;
+        left: 40%;
+
+        width: auto;
+        height: auto;
+        background: #aaa;
+
+        /* Tipo de letra */
+        font-family: 'Times New Roman', Times, serif;
+        color: black;
+        font-size: 25px; /* Tamaño de las letras */
+    }
+    .contenedor13{
+        /* posicion del contenedor */
+        position: absolute;
+        top: 60%;
+        left: 10%;
+        /* diemension del contenedor */
+        width: auto;
+        height: auto;
+        /* color de fondo contenedor */
+        background: #aaa;
+        /* Tipo de letra */
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        color: blue;
+        font-size: 20px; /* Tamaño de las letras */
+    }
+    .contenedor14{
+        /* posicion del contenedor */
+        position: absolute;
+        top: 200%;
+        left: 38%;
+        background: #aaa;
+        /* diemension del contenedor */
+        width: auto;
+        height: auto;
+        /* Tipo de letra */
+        font-size: 20px;
+    }
+}
+/* ------------------------------------------------------ */
+/* @media responsive para movil. */
+@media screen and (max-width: 600px) {
+    /* nav */
+    nav {
+        width: auto;
+        height: auto;
+        transition: all 0.3s ease;
+        
+        /* ocultar */
+        opacity: 0;
+        visibility: hidden;
+    }
+    nav.visible{
+        opacity: 1;
+        visibility: visible;
+    }
+
+    nav a {
+        font-size: 20px;
+        text-decoration: none; /* Quita el subrayado */
+    }
+    .nav-enlaces{
+        display: flex; /* oculatar nav (enlaces) */
+        gap: 1rem; /* espacio vertical entre los enlaces */
+    }
+
+    /* botones */
+    .abrir-menu{
+        display: block;
+    }
+    .cerrar-menu{
+        display: block;
+    }
+
+    /* Contenedores (div) */
+    .contenedor1 {
+        /* posicion del contenedor - titulo */
+        position: absolute;
+        top: 20%;
+        left: 25%;
+        background: #aaa;
+        /* diemension del contenedor */
+        width: auto;
+        height: auto;
+        /* Tipo de letra */
+        font-size: 38px;
+    }
+    .contenedor2 {
+        /* contenedor para los enlaces */
+        position: absolute;
+        top: 40%;
+        left: 20%;
+        width: auto; 
+        height: auto;
+        background: #d943f4ae;
+    }
+    .contenedor3 {
+        position: absolute;
+        top: 300%;
+        left: 20%;
+    
+        width: auto;
+        height: auto; 
+        background: #aaa;
+    
+        /* alinear letras */
+        display: flex; 
+        justify-content: center;
+    
+        /* Tipo de letra */
+        font-family: 'Times New Roman', Times, serif;
+        color: black;
+        font-size: 20px; /* Tamaño de las letras */
+    }
+    .contenedor4 {
+        position: absolute;
+        top: 60%;
+        left: 10%;
+    
+        width: auto;
+        height: auto;
+        background: #aaa;
+    
+        /* alinear letras */
+        display: flex; 
+        justify-content: center;
+    
+        /* Tipo de letra */
+        font-family: 'Times New Roman', Times, serif;
+        color: black;
+        font-size: 25px; /* Tamaño de las letras */
+    }
+    .contenedor5 {
+        position: absolute;
+        top: 90%;
+        left: 25%;
+    
+        width: auto;
+        height: auto; 
+        background: #aaa;
+    
+        /* Tipo de letra */
+        font-family: 'Times New Roman', Times, serif;
+        color: black;
+        font-size: 25px; /* Tamaño de las letras */
+    }
+    .contenedor6 {
+        /* posicion del contenedor - titulo */
+        position: absolute;
+        top: 210%;
+        left: 20%;
+        background: #aaa;
+        /* diemension del contenedor */
+        width: auto;
+        height: auto;
+        /* Tipo de letra */
+        font-size: 20px;
+    }
+    .contenedor7 {
+        position: absolute;
+        top: 100%;
+        left: 10%;
+        
+        width: 390px;
+        height: 300px;
+        border: 5px outset #d92121;
+        
+        /* centrar texto en el contenedor */
+        display: flex;
+        text-align: center;
+        justify-content: center; /* centra horizontalmente */
+        align-items: center;     /* centra verticalmente */
+    }
+    .contenedor8 {
+        position: absolute;
+        top: 90%;
+        left: 35%;
+    
+        width: auto;
+        height: auto;
+        background: #aaa;
+    
+        /* alinear letras */
+        display: flex; 
+        justify-content: center;
+    
+        /* Tipo de letra */
+        font-family: 'Times New Roman', Times, serif;
+        color: black;
+        font-size: 20px; /* Tamaño de las letras */
+    }
+    .contenedor9 { 
+        /* boton (mostrar - oculatar contenedor)*/
+        position: absolute;
+        top: 80%;
+        left: 10%;
+        width: 300px;
+        height: auto;
+    } 
+    .contenedor10 { 
+        position: absolute;
+        top: 90%;
+        left: 10%;
+        width: 400px; 
+        height: 200px;
+        visibility: hidden; /* lo oculta, pero mantiene el espacio */
+        
+        background: #aaaaaa5d;
+        overflow: scroll;
+        border: 5px solid black;
+        box-sizing: border-box; 
+
+        /* alinear letras */
+        display: flex; 
+        justify-content: center;
+        text-align: center;
+
+        /* Tipo de letra */
+        font-family: 'Times New Roman', Times, serif;
+        color: black;
+        font-size: 20px; /* Tamaño de las letras */
+    }
+    .contenedor11 {
+        /* posicion del contenedor */
+        position: absolute;
+        top: 80%;
+        left: 20%;
+        background: #aaa;
+        /* diemension del contenedor */
+        width: auto;
+        height: auto;
+        /* Tipo de letra */
+        font-size: 20px;
+    }
+    .contenedor12 { 
+        position: absolute;
+        top: 200%; 
+        left: 20%; 
+        width: auto;
+        height: auto;
+        background: #aaa;
+        /* Tipo de letra */
+        font-family: 'Times New Roman', Times, serif;
+        color: black;
+        font-size: 20px; /* Tamaño de las letras */
+    }
+    .contenedor13 {
+        /* posicion del contenedor */
+        position: absolute;
+        top: 60%;
+        left: 20%;
+        /* diemension del contenedor */
+        width: 300px;
+        height: auto;
+        /* color de fondo contenedor */
+        background: #aaa;
+        /* Tipo de letra */
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        color: blue;
+        font-size: 20px; /* Tamaño de las letras */
+    }
+    .contenedor14 {
+        /* posicion del contenedor */
+        position: absolute;
+        top: 200%;
+        left: 15%;
+        background: #aaa;
+        /* diemension del contenedor */
+        width: auto;
+        height: auto;
+        /* Tipo de letra */
+        font-size: 20px;
+    }
+
+
+}
+/* ------------------------------------------------------ */
+/* @media responsive para tablet. */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+
+    /* enlaces */
+    nav {
+        /* Enlaces (nav) - esta dentro del contenedor 2 */
+        width: auto;
+        height: auto; /*prederterminado*/
+        
+        display: flex;
+        font-family: 'Times New Roman', Times, serif;
+        
+        gap: 5rem; /* espacio entre enlaces (causante que se sobre salga) */ 
+    }
+    nav a {
+        text-decoration: none; /* Quita el subrayado */
+        font-size: 25px;
+        color: black;
+    }
+    nav a:hover {
+        color: rgb(139, 5, 0);
+    }
+
+    /* Contenedores (div) */
+    .contenedor1{
+        /* posicion del contenedor - titulo */
+        position: absolute;
+        top: 20%;
+        left: 40%;
+        background: #aaa;
+        /* diemension del contenedor */
+        width: auto;
+        height: auto;
+        /* Tipo de letra */
+        font-size: 38px;
+    }
+    .contenedor2{
+        /* contenedor para los enlaces */
+        position: absolute;
+        top: 40%;
+        left: 30%; 
+        flex-direction: row; /* apila los enlaces */
+
+        width: auto; 
+        height: auto;
+        background: #d943f4ae;
+        
+        font-size: 25px;
+        justify-content: center;
+    }
+    .contenedor3{
+        position: absolute;
+        top: 300%;
+        left: 40%;
+    
+        width: auto;
+        height: auto; 
+        background: #aaa;
+    
+        /* alinear letras */
+        display: flex; 
+        justify-content: center;
+    
+        /* Tipo de letra */
+        font-family: 'Times New Roman', Times, serif;
+        color: black;
+        font-size: 20px; /* Tamaño de las letras */
+    }
+    .contenedor4{
+        position: absolute;
+        top: 60%;
+        left: 40%;
+    
+        width: auto;
+        height: auto;
+        background: #aaa;
+    
+        /* alinear letras */
+        display: flex; 
+        justify-content: center;
+    
+        /* Tipo de letra */
+        font-family: 'Times New Roman', Times, serif;
+        color: black;
+        font-size: 25px; /* Tamaño de las letras */
+    }
+    .contenedor5{
+        position: absolute;
+        top: 90%;
+        left: 40%;
+    
+        width: auto;
+        height: auto; 
+        background: #aaa;
+    
+        /* alinear letras */
+        display: flex; 
+        justify-content: center;
+    
+        /* Tipo de letra */
+        font-family: 'Times New Roman', Times, serif;
+        color: black;
+        font-size: 30px; /* Tamaño de las letras */
+    }
+    .contenedor6 {
+        /* posicion del contenedor - titulo */
+        position: absolute;
+        top: 210%;
+        left: 40%;
+        background: #aaa;
+        /* diemension del contenedor */
+        width: auto;
+        height: auto;
+        /* Tipo de letra */
+        font-size: 20px;
+    }
+    .contenedor7 {
+        position: absolute;
+        top: 100%;
+        left: 20%;
+        
+        width: 430px;
+        height: 400px;
+        border: 5px outset #d92121;
+        
+        /* centrar texto en el contenedor */
+        display: flex;
+        text-align: center;
+        justify-content: center; /* centra horizontalmente */
+        align-items: center;     /* centra verticalmente */
+    }
+    .contenedor8 {
+        position: absolute;
+        top: 90%;
+        left: 35%;
+    
+        width: auto;
+        height: auto;
+        background: #aaa;
+    
+        /* alinear letras */
+        display: flex; 
+        justify-content: center;
+    
+        /* Tipo de letra */
+        font-family: 'Times New Roman', Times, serif;
+        color: black;
+        font-size: 20px; /* Tamaño de las letras */
+    }
+    .contenedor9 { 
+        /* boton (mostrar - oculatar contenedor)*/
+        position: absolute;
+        top: 80%;
+        left: 10%;
+        width: 300px;
+        height: auto;
+    } 
+    .contenedor10 { 
+        position: absolute;
+        top: 90%;
+        left: 10%;
+
+        visibility: hidden; /* lo oculta, pero mantiene el espacio */
+
+        background: #aaaaaa5d;
+        
+        width: 900px; 
+        height: 200px;
+
+        overflow: scroll;
+        border: 5px solid black;
+        box-sizing: border-box; 
+
+        /* alinear letras */
+        display: flex; 
+        justify-content: center;
+        text-align: center;
+
+        /* Tipo de letra */
+        font-family: 'Times New Roman', Times, serif;
+        color: black;
+        font-size: 20px; /* Tamaño de las letras */
+    }
+    .contenedor11{
+        /* posicion del contenedor */
+        position: absolute;
+        top: 80%;
+        left: 10%;
+        background: #aaa;
+        /* diemension del contenedor */
+        width: auto;
+        height: auto;
+        /* Tipo de letra */
+        font-size: 20px;
+    }
+    .contenedor12 { 
+        position: absolute;
+        width: 90%; 
+        left: 5%; 
+        font-size: 20px; 
+        text-align: center;
+        top: 150%;
+        left: 40%;
+
+        width: auto;
+        height: auto;
+        background: #aaa;
+
+        /* Tipo de letra */
+        font-family: 'Times New Roman', Times, serif;
+        color: black;
+        font-size: 25px; /* Tamaño de las letras */
+    }
+    .contenedor13{
+        /* posicion del contenedor */
+        position: absolute;
+        top: 60%;
+        left: 10%;
+        /* diemension del contenedor */
+        width: auto;
+        height: auto;
+        /* color de fondo contenedor */
+        background: #aaa;
+        /* Tipo de letra */
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        color: blue;
+        font-size: 20px; /* Tamaño de las letras */
+    }
+    .contenedor14{
+        /* posicion del contenedor */
+        position: absolute;
+        top: 200%;
+        left: 38%;
+        background: #aaa;
+        /* diemension del contenedor */
+        width: auto;
+        height: auto;
+        /* Tipo de letra */
+        font-size: 20px;
+    }
+}
+/* ------------------------------------------------------ */
+/* Botón mostrar y ocultar*/
+.btn1{
+    background-color: #3498db; /* color de fondo: azul */   /* color de fondo */
+    text-align: center;
+    padding: 10px 10px; /* espacio interno - altura y anchura */
+    color: white; /* color del texto */
+    border-radius: 5px; /* bordes redondeados */
+}
+/* Botón hamburguesa (oculto por defecto) */
+.abrir-menu{
+    display: none;
+}
+.cerrar-menu{
+    display: none;
+    padding: auto; /* espacio interno - altura y anchura */
+}
+/* ------------------------------------------------------ */
+/* Animaciones */
+@keyframes fadeIn {
+    /* animacion - contenedor 1 */
+    to { opacity: 1; }
+}
+/* ------------------------------------------------------ */
+
